@@ -1,0 +1,22 @@
+#
+1. Installer les dépendances
+npm install
+#
+2. Build de l'application
+npm run build
+#
+3. Export statique pour mobile
+npm run export
+#
+4. Initialiser Capacitor (si première fois)
+npx cap init CityReport fr.ville.cityreport
+#
+5. Ajouter Android
+npx cap add android
+#
+6. Synchroniser
+npx cap sync android
+#
+7. Ouvrir Android Studio
+npx cap open android
+npm run build && npm run export && npx cap sync android  
